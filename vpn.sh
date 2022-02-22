@@ -13,7 +13,7 @@ openvpn() {
     local authorizedKeys="${AUTHORIZED_KEYS}"
     
     local vpnConfig="$HOME/.vpn"
-    local dockerImage="ethack/vpn"
+    local dockerImage="docker-vpn"
     
     # AUTHORIZED_KEYS not specified. Use some defaults.
     if [ -z "$authorizedKeys" ]; then
@@ -82,7 +82,7 @@ openconnect() {
     local authorizedKeys="${AUTHORIZED_KEYS}"
     
     local vpnConfig="$HOME/.vpn"
-    local dockerImage="ethack/vpn"
+    local dockerImage="docker-vpn"
     
     # AUTHORIZED_KEYS not specified. Use some defaults.
     if [ -z "$authorizedKeys" ]; then

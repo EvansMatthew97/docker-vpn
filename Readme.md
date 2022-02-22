@@ -14,6 +14,11 @@ The [`ethack/vpn`](https://hub.docker.com/r/ethack/vpn) Docker image and accompa
 - [Install Docker](https://docs.docker.com/install/) using the instructions or use `curl -fsSL https://get.docker.com -o get-docker.sh | sh` if you have a supported linux distro and like to live dangerously.
 - Source `vpn.sh` in your `.bashrc` file or current shell. E.g. `source vpn.sh`
 
+### Build Docker image
+```bash
+$ docker build -t docker-vpn .
+```
+
 ## Usage
 
 ```
